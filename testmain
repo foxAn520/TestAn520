@@ -1,0 +1,17 @@
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        TestClass mytest = new TestClass();
+        mytest.printme("testan");
+        mytest.printme("hw");
+    }
+}
+
+class TestClass{
+
+    static void printme(String strIn){
+        System.out.println(strIn);
+    }
+
+}
